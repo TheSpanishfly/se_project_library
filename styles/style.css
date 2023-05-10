@@ -393,6 +393,10 @@
   box-sizing: border-box;
   background-color: #1f1f1f;
   color: #ffffff;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 80px;
+  padding-right: 102px;
 }
 
 .wrapper {
@@ -403,8 +407,9 @@
 
 .footer__columns {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: flex-start;
   min-height: 224px;
   padding-top: 60px;
 }
@@ -452,6 +457,8 @@
 }
 
 .footer__column-heading {
+  display: flex;
+  justify-content: center;
   font-size: 16px;
   margin: 0px;
   padding-bottom: 20px;
@@ -472,6 +479,7 @@
 
 .footer__copyright {
   display: flex;
+  justify-content: flex-start;
   flex-wrap: wrap;
-  margin-left: auto;
+  margin-right: auto;
 }
