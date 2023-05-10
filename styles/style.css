@@ -229,10 +229,6 @@
   background-size: cover;
 }
 
-.staff__cards {
-  flex-wrap: wrap;
-}
-
 .staff__title {
   text-align: center;
   font-size: 44px;
@@ -250,7 +246,7 @@
   color: #ffffff;
 }
 
-.container {
+.staff__cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
