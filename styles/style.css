@@ -395,9 +395,16 @@
   color: #ffffff;
 }
 
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
 .footer__columns {
   display: flex;
   flex-direction: row;
+  justify-content: flex-end;
   min-height: 224px;
   padding-top: 60px;
 }
@@ -466,5 +473,5 @@
 .footer__copyright {
   display: flex;
   flex-wrap: wrap;
-  padding-left: 80px;
+  margin-left: auto;
 }
