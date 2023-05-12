@@ -85,11 +85,8 @@
   box-sizing: border-box;
 }
 
-.header__link:hover {
-  color: #2f80ed;
-}
-
 .header__link {
+  color: #2f80ed;
   text-decoration: none;
 }
 
